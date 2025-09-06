@@ -12,6 +12,7 @@
       },
     ]
     },
+    "Variables": {
     "Build": {
       "type": "text",
       "default": "21.4.154",
