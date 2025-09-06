@@ -1,0 +1,28 @@
+{
+  "Image": "ghcr.io/ma4z-sys/yolks:minecraft_java_21",
+  "Cmd": "",
+  "Env": [],
+  "StartedMessage": "For help, type",
+  "features": ["eula"],
+  "Scripts": {
+    "Install": [
+      {
+        "Uri": "https://maven.neoforged.net/releases/net/neoforged/neoforge/{{Build}}/neoforge-{{Build}}-installer.jar",
+        "Path": "server.jar"
+      },
+    ]
+    },
+    "Build": {
+      "type": "text",
+      "default": "21.4.154",
+      "required": true
+    }
+  },
+  "Name": "Minecraft Java: NeoForgeMC",
+  "Description": "NeoForge MC is a powerful modding framework for Minecraft, enabling extensive customization and expansion of the game. It provides a robust API for developers to create mods, adding new features, mechanics, and content. Known for its wide mod compatibility and active community, NeoForge MC is a preferred choice for players and server administrators looking to enhance their Minecraft experience with diverse, community-created mods.",
+  "Author": "info@hydren.us.kg",
+  "AuthorName": "HydrenLLC",
+  "Meta": {
+    "Version": "Hydren Images"
+  }
+}
